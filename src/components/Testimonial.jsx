@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Testimonial from "../assets/Testimonial.svg";
 import dummy from "../assets/dummy.webp";
-import playBtn from "../assets/playBtn.svg";
+import playBtn from "../assets/playbtn.svg";
 
 const slides = [
   {
