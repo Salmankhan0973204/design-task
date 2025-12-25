@@ -11,7 +11,7 @@ import img9 from "../assets/topsec9.svg";
 import img10 from "../assets/topsec10.svg";
 import logo from "../assets/logo-big.svg";
 import apple from "../assets/apple.svg";
-import google from "../assets/google.svg";
+import google from "../assets/google.svg ";
 
 const TopSection = () => {
   return (
