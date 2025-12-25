@@ -1,4 +1,4 @@
-import "../styles/TopSection.scss";
+import "./TopSection.scss";
 import img1 from "../assets/topsec1.svg";
 import img2 from "../assets/topsec2.svg";
 import img3 from "../assets/topsec3.svg";
@@ -15,7 +15,7 @@ import google from "../assets/google.svg";
 
 const TopSection = () => {
   return (
-    <section className="py-5 hero-section bg-[#26262B] text-white min-h-[90vh] flex items-center justify-center relative overflow-hidden px-4">
+    <section className="md:mt-10 hero-section bg-[#26262B] text-white min-h-[90vh] flex items-center justify-center relative overflow-hidden px-4">
       {/* Left Floating Images */}
       <div className="floating left flex flex-col gap-4">
         <img src={img1} alt="Work with pics" className="w-20 md:w-24 lg:w-44" />
